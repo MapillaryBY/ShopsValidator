@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Check if browser accepts gzip
+  RewriteCond %{HTTP:Accept-Encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule ^(.*)$ $1.gz [L]
+</IfModule>
+
+<Files *.css.gz>
+  AddType "text/css" .gz
+</Files>
+<Files *.json.gz>
+  AddType "application/json" .gz
+</Files>
+<Files *.js.gz>
+  AddType "application/javascript" .gz
+</Files>
+<Files *.wasm.gz>
+  AddType "application/wasm" .gz
+</Files>
+<Files *.dll.gz>
+  AddType "application/octet-stream" .gz
+</Files>
