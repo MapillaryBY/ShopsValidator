@@ -1,0 +1,77 @@
+.app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-panel {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.search-input {
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    width: 400px;
+    font-size: 1rem;
+}
+
+.stats {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.legend {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.map-container {
+    flex: 1;
+    min-height: 0;
+}
+
+.popup-content {
+    max-width: 300px;
+}
+
+    .popup-content h4 {
+        margin: 0 0 0.5rem 0;
+        color: #333;
+    }
+
+    .popup-content p {
+        margin: 0.25rem 0;
+        font-size: 0.875rem;
+    }
+
+    .popup-content strong {
+        color: #555;
+    }

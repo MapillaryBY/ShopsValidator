@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trade Records Map</title>
+    <base href="https://mapillaryby.github.io/ShopsValidator/" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+    <div id="app">Loading...</div>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.addEventListener('error', function (e) {
+            console.error('Global error:', e.error);
+        });
+
+        Blazor.defaultReconnectionHandler._onConnectionDown = function () {
+            console.error('Blazor connection lost');
+        };
+    </script>
+</body>
+</html>
