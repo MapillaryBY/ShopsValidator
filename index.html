@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trade Records Map</title>
-    <base href="/ShopsValidator/" />
+    <base href="/" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="">
+     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
@@ -18,15 +19,17 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster-src.js" integrity="sha384-xLgzMQOvDhPE6lQoFpJJOFU2aMYsKD5eSSt9q3aR1RREx3Y+XsnqtSDZd+PhAcob" crossorigin=""></script>
+    <script src="https://unpkg.com/moment@2.30.1/min/moment.min.js" integrity="sha384-jzJ+sNWbKe71gDLLfQKgdtslQjhK70oKLFN+wmwxyg6mQN7Vem+wzce4pryF0HP/" crossorigin=""></script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
         window.addEventListener('error', function (e) {
             console.error('Global error:', e.error);
         });
 
-        Blazor.defaultReconnectionHandler._onConnectionDown = function () {
-            console.error('Blazor connection lost');
-        };
+        //Blazor.defaultReconnectionHandler._onConnectionDown = function () {
+        //    console.error('Blazor connection lost');
+        //};
     </script>
 </body>
 </html>
