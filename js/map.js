@@ -241,6 +241,7 @@ export function updateMarkers(markerData) {
                 marker.bindPopup(data.popupContent);
             }
             group.addLayer(marker);
+            markers.push(marker);
             //old
           /*  if (typeof data.latitude === 'undefined' || typeof data.longitude === 'undefined') {
                 console.warn(`Marker ${index} missing coordinates:`, data);
