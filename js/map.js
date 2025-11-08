@@ -1,5 +1,6 @@
 ﻿let map = null;
-let markers = [];
+let group = null;
+let allmarkers = [];
 
 export function initializeMap(dotNetHelper) {
     console.log("initializeMap function called");
@@ -37,7 +38,7 @@ export function updateMarkers(markerData) {
     }
 
     // Очищаем старые маркеры
-    clearMarkers();
+    clearMarkers(group);
 
     // Проверяем данные
     if (!markerData) {
@@ -69,7 +70,7 @@ export function updateMarkers(markerData) {
     var redIcon = getIcon('red');
     var greyIcon = getIcon('grey');
 
-    const group = L.markerClusterGroup({
+    group = L.markerClusterGroup({
         //  disableClusteringAtZoom: 12,
         spiderfyOnMaxZoom: true,
         spiderfyDistanceMultiplier: 2,
@@ -241,33 +242,33 @@ export function updateMarkers(markerData) {
                 marker.bindPopup(data.popupContent);
             }
             group.addLayer(marker);
-            markers.push(marker);
+            allmarkers.push(marker);
             //old
-          /*  if (typeof data.latitude === 'undefined' || typeof data.longitude === 'undefined') {
-                console.warn(`Marker ${index} missing coordinates:`, data);
-                return;
-            }
-
-            const marker = L.circleMarker([data.latitude, data.longitude], {
-                color: data.color || '#6c757d',
-                fillColor: data.color || '#6c757d',
-                fillOpacity: 0.7,
-                radius: 8,
-                weight: 2
-            });
-
-            if (data.popupContent) {
-                marker.bindPopup(data.popupContent);
-            }
-
-            // Проверяем что карта существует перед добавлением
-            if (map) {
-                marker.addTo(map);
-                markers.push(marker);
-            } else {
-                console.error('Cannot add marker - map is null');
-            }
-            */
+            /*  if (typeof data.latitude === 'undefined' || typeof data.longitude === 'undefined') {
+                  console.warn(`Marker ${index} missing coordinates:`, data);
+                  return;
+              }
+  
+              const marker = L.circleMarker([data.latitude, data.longitude], {
+                  color: data.color || '#6c757d',
+                  fillColor: data.color || '#6c757d',
+                  fillOpacity: 0.7,
+                  radius: 8,
+                  weight: 2
+              });
+  
+              if (data.popupContent) {
+                  marker.bindPopup(data.popupContent);
+              }
+  
+              // Проверяем что карта существует перед добавлением
+              if (map) {
+                  marker.addTo(map);
+                  markers.push(marker);
+              } else {
+                  console.error('Cannot add marker - map is null');
+              }
+              */
         } catch (error) {
             console.error(`Error creating marker ${index}:`, error, data);
         }
@@ -322,19 +323,22 @@ export function updateMarkers(markerData) {
 
 }
 
-export function clearMarkers() {
-    console.log("Clearing markers, current count:", markers.length);
-
-    markers.forEach(marker => {
-        try {
-            if (map && marker) {
-                map.removeLayer(marker);
-            }
-        } catch (error) {
-            console.error("Error removing marker:", error);
-        }
-    });
-    markers = [];
+export function clearMarkers(group) {
+    console.log("Clearing markers NEW, current count:", allmarkers.length);
+    if (group) {
+        group.clearLayers();
+    }
+    //allmarkers.forEach(marker => {
+    //    try {
+    //        if (map && marker) {
+    //            group.clearLayers();
+    //            //map.removeLayer(marker);
+    //        }
+    //    } catch (error) {
+    //        console.error("Error removing marker:", error);
+    //    }
+    //});
+    allmarkers = [];
 }
 
 export function disposeMap() {
