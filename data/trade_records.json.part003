@@ -1,4 +1,7 @@
-": 2,
+021",
+    "Latitude": 53.9334729,
+    "Longitude": 27.4336482,
+    "GeoStatus": 2,
     "FullAddress": "27, Люцинская, Минск",
     "AdrLatitude": 53.9334729,
     "AdrLongitude": 27.4336482
@@ -127170,12 +127173,15 @@
     "am": "",
     "an": "759169",
     "ao": "06.10.2025",
-    "Latitude": 53.8619482,
-    "Longitude": 27.5525399,
+    "Latitude": 53.862083600000005,
+    "Longitude": 27.5524698,
     "GeoStatus": 2,
     "FullAddress": "7, Жореса Алфёрова, Минск",
+    "OsmId": 13424543686,
+    "DetectStatus": 1,
     "AdrLatitude": 53.8619482,
-    "AdrLongitude": 27.5525399
+    "AdrLongitude": 27.5525399,
+    "Distance": 15
   },
   {
     "a": "Индивидуальный предприниматель Солдатенко Сергей Анатольевич",
