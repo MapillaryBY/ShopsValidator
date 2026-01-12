@@ -1,4 +1,4 @@
-ий, Минская",
+инский, Минская",
     "OsmId": 663466369,
     "DetectStatus": 3
   },
@@ -90217,10 +90217,12 @@
     "am": "",
     "an": "162293",
     "ao": "27.11.2014",
-    "Latitude": 52.8859997,
-    "Longitude": 28.6751938,
+    "Latitude": 52.88927210000001,
+    "Longitude": 28.6752046,
     "GeoStatus": 2,
     "FullAddress": "Достижение, Глусский, Могилевская",
+    "OsmId": 6802440672,
+    "DetectStatus": 3,
     "AdrLatitude": 52.8859997,
     "AdrLongitude": 28.6751938
   },
@@ -122604,7 +122606,7 @@
     "GeoStatus": 2,
     "FullAddress": "12, Гагарина, Глуск, Глусский, Могилевская",
     "OsmId": 4347032396,
-    "DetectStatus": 1,
+    "DetectStatus": 3,
     "AdrLatitude": 52.8907538,
     "AdrLongitude": 28.684622,
     "Distance": 16
