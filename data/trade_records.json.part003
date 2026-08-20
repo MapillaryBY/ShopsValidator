@@ -1,4 +1,4 @@
-лотков,  корзин,  торговых автоматов и иных приспособлений,  передвижных торговых объектов)",
+�ючением палаток,  тележек,  лотков,  корзин,  торговых автоматов и иных приспособлений,  передвижных торговых объектов)",
     "e": "CrazyCups",
     "f": "",
     "g": "",
@@ -68268,7 +68268,7 @@
     "GeoStatus": 2,
     "FullAddress": "90а, Урицкого, Бобруйск, Могилевская",
     "OsmId": 4213734199,
-    "DetectStatus": 1,
+    "DetectStatus": 3,
     "AdrLatitude": 53.1419321,
     "AdrLongitude": 29.2330573,
     "Distance": 51
@@ -86449,7 +86449,7 @@
     "GeoStatus": 2,
     "FullAddress": "15, Ленина, Бобруйск, Могилевская",
     "OsmId": 104144060,
-    "DetectStatus": 2,
+    "DetectStatus": 3,
     "AdrLatitude": 53.1495393,
     "AdrLongitude": 29.238597,
     "Distance": 0
@@ -101027,15 +101027,12 @@
     "am": "",
     "an": "6323",
     "ao": "15.05.2009",
-    "Latitude": 53.1476308,
-    "Longitude": 29.2337081,
+    "Latitude": 53.1476387,
+    "Longitude": 29.2337617,
     "GeoStatus": 2,
     "FullAddress": "134 а, Социалистическая, Бобруйск, Могилевская",
-    "OsmId": 3033991068,
-    "DetectStatus": 1,
     "AdrLatitude": 53.1476387,
-    "AdrLongitude": 29.2337617,
-    "Distance": 3
+    "AdrLongitude": 29.2337617
   },
   {
     "a": "Частное торговое унитарное предприятие \"Сладков\"",
@@ -111353,7 +111350,7 @@
     "GeoStatus": 2,
     "FullAddress": "134А, Социалистическая, Бобруйск, Могилевская",
     "OsmId": 3033991068,
-    "DetectStatus": 1,
+    "DetectStatus": 3,
     "AdrLatitude": 53.1476387,
     "AdrLongitude": 29.2337617,
     "Distance": 3
@@ -111503,7 +111500,7 @@
     "GeoStatus": 2,
     "FullAddress": "17, Минская, Бобруйск, Могилевская",
     "OsmId": 1205606956,
-    "DetectStatus": 2,
+    "DetectStatus": 3,
     "AdrLatitude": 53.1471334,
     "AdrLongitude": 29.2315177,
     "Distance": 20
@@ -124981,15 +124978,12 @@
     "am": "",
     "an": "580506",
     "ao": "29.04.2024",
-    "Latitude": 53.1476308,
-    "Longitude": 29.2337081,
+    "Latitude": 53.1476387,
+    "Longitude": 29.2337617,
     "GeoStatus": 2,
     "FullAddress": "134А, Социалистическая, Бобруйск, Могилевская",
-    "OsmId": 3033991068,
-    "DetectStatus": 1,
     "AdrLatitude": 53.1476387,
-    "AdrLongitude": 29.2337617,
-    "Distance": 3
+    "AdrLongitude": 29.2337617
   },
   {
     "a": "Частное торговое унитарное предприятие \"КристинаПродТорг\"",
