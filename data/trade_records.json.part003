@@ -3373,12 +3373,15 @@
     "am": "",
     "an": "542750",
     "ao": "10.10.2022",
-    "Latitude": 53.8638718,
-    "Longitude": 27.4948265,
+    "Latitude": 53.8638429,
+    "Longitude": 27.4950264,
     "GeoStatus": 2,
     "FullAddress": "4/д, Семашко, Минск",
+    "OsmId": 14239792783,
+    "DetectStatus": 1,
     "AdrLatitude": 53.8638718,
-    "AdrLongitude": 27.4948265
+    "AdrLongitude": 27.4948265,
+    "Distance": 13
   },
   {
     "a": "Индивидуальный предприниматель Матвеева Наталья Станиславовна",
