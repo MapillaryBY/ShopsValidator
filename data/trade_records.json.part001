@@ -219445,7 +219445,7 @@
     "GeoStatus": 2,
     "FullAddress": "57-Ж/, Набережная, Сеница, Минский, Минская",
     "OsmId": 233932861,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 53.8229496,
     "AdrLongitude": 27.5189819,
     "Distance": 0
