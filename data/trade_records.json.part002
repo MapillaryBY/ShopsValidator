@@ -245872,7 +245872,7 @@
     "GeoStatus": 2,
     "FullAddress": "57К, Набережная, Сеница, Минский, Минская",
     "OsmId": 480855734,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 53.823477,
     "AdrLongitude": 27.5191464,
     "Distance": 3
