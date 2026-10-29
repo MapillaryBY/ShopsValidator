@@ -73811,7 +73811,7 @@
     "GeoStatus": 2,
     "FullAddress": "14, Советская, Хотомель, Столинский, Брестская",
     "OsmId": 1271563247,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 51.946501,
     "AdrLongitude": 27.042686,
     "Distance": 0
