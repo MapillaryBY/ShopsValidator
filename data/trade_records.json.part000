@@ -97426,7 +97426,7 @@
     "GeoStatus": 2,
     "FullAddress": "20-А/, Молодёжная, Сморгонь, Сморгонский, Гродненская",
     "OsmId": 4657125696,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 54.4664469,
     "AdrLongitude": 26.4023219,
     "Distance": 5
