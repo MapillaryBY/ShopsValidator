@@ -157976,7 +157976,7 @@
     "GeoStatus": 2,
     "FullAddress": "25, Карбышева, Брест, Брестская",
     "OsmId": 14300002666,
-    "DetectStatus": 2,
+    "DetectStatus": 3,
     "AdrLatitude": 52.0970338,
     "AdrLongitude": 23.6921749,
     "Distance": 41
