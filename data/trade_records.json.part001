@@ -218410,7 +218410,7 @@
     "GeoStatus": 2,
     "FullAddress": "166, Долгиновский, Минск",
     "OsmId": 3592138820,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 53.9574021,
     "AdrLongitude": 27.536434,
     "Distance": 0
