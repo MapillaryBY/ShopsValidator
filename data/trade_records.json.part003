@@ -128709,15 +128709,15 @@
     "am": "",
     "an": "356514",
     "ao": "27.10.2016",
-    "Latitude": 53.87640261466788,
-    "Longitude": 27.46602411665524,
+    "Latitude": 53.8760655,
+    "Longitude": 27.4658772,
     "GeoStatus": 2,
     "FullAddress": "2, Горецкого, Минск",
-    "OsmId": 964927582,
-    "DetectStatus": 1,
+    "OsmId": 6966441574,
+    "DetectStatus": 2,
     "AdrLatitude": 53.8764743,
     "AdrLongitude": 27.4660524,
-    "Distance": 8
+    "Distance": 46
   },
   {
     "a": "Совместное общество с ограниченной ответственностью \"Гарсия\"",
