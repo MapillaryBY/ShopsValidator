@@ -163736,7 +163736,7 @@
     "GeoStatus": 2,
     "FullAddress": "3, Владимировский, Молотковичи, Пинский, Брестская",
     "OsmId": 14396823901,
-    "DetectStatus": 1,
+    "DetectStatus": 2,
     "AdrLatitude": 52.1126926,
     "AdrLongitude": 25.9126328,
     "Distance": 5
